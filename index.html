@@ -2,20 +2,99 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title>Transformations</title>
-    <style>
-      body {
-        background-color: green;
-      }
-
-      @media screen and (min-width: 320px) and (max-width: 640px) {
-        body {
-          background-color: blue;
-        }
-      }
-    </style>
+    <title>Friends</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div class="box"></div>
+    <header>
+      <div class="header__top">
+        <div class="header__column">
+          <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
+        </div>
+        <div class="header__column">
+          <span class="header__time">18:38</span>
+        </div>
+        <div class="header__column">
+          <i class="far fa-moon"></i> <i class="fab fa-bluetooth-b"></i>
+          <span class="header__battery"
+            >66% <i class="fas fa-battery-three-quarters"></i
+          ></span>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__column">
+          <span class="header__text">Manage</span>
+        </div>
+        <div class="header__column">
+          <span class="header__text"
+            >Friends <span class="header__number">1</span></span
+          >
+        </div>
+        <div class="header__column"><i class="fas fa-cog fa-lg"></i></div>
+      </div>
+    </header>
+    <main class="friends">
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="친구찾기, 채팅, 플러스친구" />
+      </div>
+      <section class="friends__section">
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">My Profile</h6>
+        </header>
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
+            <img src="" alt="" />
+            <span class="friends__section-name">이성민</span>
+          </div>
+          <div class="friends__section-row">
+            <img src="" alt="" />
+            <span class="friends__section-name">친구 이름 표시</span>
+          </div>
+        </div>
+      </section>
+      <section class="friends__section">
+        <header class="friends__section-header">
+          <h6 class="friends__section-title"></h6>
+        </header>
+        <div class="friends__section">
+          <header class="friends__section-header">
+            <h6 class="friends__section-title">My Profile</h6>
+          </header>
+          <div class="friends__section-rows">
+            <div class="friends__section-row">
+              <img src="" alt="" />
+              <span class="friends__section-name">이성민</span>
+            </div>
+            <span class="friends__section-tagline">
+              Life is short. so live your life.
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fas fa-user fa-lg"></i
+        ><span class="tap-bar__title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="fas fa-comment fa-lg"></i
+        ><span class="tap-bar__title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar__tab">
+        <i class="fas fa-search fa-lg"></i
+        ><span class="tap-bar__title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar__tab">
+        <i class="fas fa-ellipsis-h fa-lg"></i
+        ><span class="tap-bar__title">More</span>
+      </a>
+    </nav>
   </body>
 </html>
