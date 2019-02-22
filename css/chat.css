@@ -1,0 +1,5 @@
+.date-divider__text {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
