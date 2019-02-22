@@ -1,0 +1,31 @@
+.find .find__options {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: #523737;
+}
+
+.find__option-title {
+  display: block;
+  padding-top: 12px;
+  font-size: 13px;
+}
+
+.recommended__title {
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  color: rgb(123, 128, 150);
+}
+
+.recommended__none {
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+  padding: 25px;
+  color: rgb(123, 128, 150);
+  font-size: 15px;
+}
