@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header top-header-transparent">
       <div class="header__top">
         <div class="header__column">
           <i class="fas fa-plane"></i> <i class="fas fa-wifi"></i>
@@ -31,14 +31,17 @@
         <div class="header__column">
           <a href="index.html"> <i class="fas fa-times fa-lg"></i> </a>
         </div>
-
         <div class="header__column"><i class="fas fa-user fa-lg"></i></div>
       </div>
     </header>
     <main class="profile">
       <header class="profile__header">
-        <img src="images/avatar.jpg" alt="" />
-        <h3 class="profile__header-title">이성민</h3>
+        <div class="profile__header-container">
+          <img src="images/avatar.jpg" alt="" />
+          <h3 class="profile__header-title">이성민</h3>
+        </div>
+      </header>
+      <div class="profile__container">
         <input type="text" placeholder="  djshotcut@naver.com" />
         <div class="profile__actions">
           <div class="profile__action">
@@ -54,7 +57,8 @@
             <span class="profile__action-title"> 프로필 관리 </span>
           </div>
         </div>
-      </header>
+      </div>
     </main>
+    <div class="bigScreenText"><span>화면을 작게 하세요.</span></div>
   </body>
 </html>

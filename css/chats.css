@@ -56,4 +56,12 @@
   position: fixed;
   right: 20px;
   bottom: 80px;
+  cursor: pointer;
+  transition: color 1s, background 1s, transform 1s ease-in-out;
+}
+
+.chat-btn:hover {
+  color: white;
+  background: #b4b4b4;
+  transform: rotatey(1turn);
 }

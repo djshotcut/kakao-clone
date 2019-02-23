@@ -1,5 +1,129 @@
-.date-divider__text {
-  display: flex;
-  justify-content: center;
+.body-chat {
+  padding-bottom: 0;
+}
+
+.chat-header,
+.chat-header a {
+  background-color: #a0c0d7;
+  color: black;
+}
+
+.chat-header {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid #98b6cc;
+}
+
+.chat {
+  background-color: #a0c0d7;
+  height: 100vh;
+}
+
+.chat .date-divider {
+  text-align: center;
   padding-top: 30px;
+  font-size: 14px;
+  color: #566873;
+  margin-bottom: 15px;
+}
+
+.chat__message {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.chat__message-from-me {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chat__message-from-me .chat__message-time {
+  font-size: 10px;
+  color: #566873;
+  padding-top: 35px;
+  padding-right: 5px;
+}
+.chat__message-from-me .chat__message-body {
+  background-color: #ffeb00;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+
+.chat__message--to-me img {
+  height: 50px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.chat__message .chat__message-username {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+
+.chat__message-center .chat__message-body {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.chat__message--to-me .chat__message-time {
+  font-size: 10px;
+  color: #566873;
+  padding-top: 58px;
+  padding-left: 5px;
+}
+
+.type-message {
+  display: flex;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  padding: 10px 5px 10px 10px;
+  align-items: center;
+}
+
+.type-message .fa-plus {
+  color: #838383;
+}
+.type-message .fa-grin {
+  color: #838383;
+}
+.type-message .fa-microphone {
+  background-color: #ffeb00;
+  padding: 11px;
+  border-radius: 5px;
+  color: #6a4547;
+}
+
+.type-message__input input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: border 0.2s linear;
+}
+
+.type-message__input input:focus {
+  border-color: pink;
+}
+
+.type-message__input {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.type-message__input .fa-grin {
+  position: absolute;
+  right: 50px;
+  padding-top: 2px;
 }
